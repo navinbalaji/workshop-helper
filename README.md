@@ -1,12 +1,12 @@
-# Elastic Bangalore Workshop CLI
+# ELASTIC Workshop CLI
 
-Interactive terminal lab companion for the **Elastic Bangalore** workshop: *Agentic Workflows & Searchable Applications with Elasticsearch, Jina, and A2A*.
+Interactive terminal lab companion for the **ELASTIC** workshop: *Agentic Workflows & Searchable Applications with Elasticsearch, Jina, and A2A*.
 
 The CLI walks participants through every lab step from [lab-guide.md](lab-guide.md), shows instructions in the terminal, and **auto-verifies** completion against your Elastic Cloud deployment.
 
 ## Features
 
-- Elastic Bangalore branded splash screen
+- ELASTIC branded splash screen
 - Interactive credential setup (saved to `~/.elastic-bangalore/config.yaml`)
 - Checklist UI with **↑/↓** navigation, **Space** to mark, **Enter** to verify
 - Step-by-step instructions panel
@@ -134,7 +134,7 @@ Docs: [Find connection details](https://www.elastic.co/docs/solutions/elasticsea
 
 ### First launch (continued)
 
-1. Splash screen appears with **Elastic Bangalore** branding
+1. Splash screen appears with **ELASTIC** branding
 2. Enter your credentials when prompted:
    - **Cloud ID** — from Elastic Cloud deployment console
    - **API Key** — base64-encoded key
@@ -232,4 +232,4 @@ properties-dataset.csv    Module 3 dataset
 
 ## License
 
-Workshop materials for Elastic Bangalore community events.
+Workshop materials for ELASTIC community events.

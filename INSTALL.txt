@@ -1,4 +1,4 @@
-Elastic Bangalore Workshop CLI — Quick start
+ELASTIC Workshop CLI — Quick start
 ==========================================
 
 Pick the download for your system from GitHub Releases, extract, then run the binary.

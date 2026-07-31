@@ -16,12 +16,12 @@ func GenerateCertificate(states []steps.StepState, sessionID string) string {
 
 	b.WriteString("╔══════════════════════════════════════════════════════════════════╗\n")
 	b.WriteString("║                                                                  ║\n")
-	b.WriteString("║                    ELASTIC BANGALORE                             ║\n")
+	b.WriteString("║                    ELASTIC                             ║\n")
 	b.WriteString("║              WORKSHOP CERTIFICATE OF COMPLETION                  ║\n")
 	b.WriteString("║                                                                  ║\n")
 	b.WriteString("╚══════════════════════════════════════════════════════════════════╝\n\n")
 	b.WriteString("This certifies that the holder has successfully completed the\n")
-	b.WriteString("Elastic Bangalore hands-on workshop:\n\n")
+	b.WriteString("ELASTIC hands-on workshop:\n\n")
 	b.WriteString("  Agentic Workflows & Searchable Applications\n")
 	b.WriteString("  with Elasticsearch, Jina, and A2A\n\n")
 	b.WriteString(fmt.Sprintf("Completed on: %s\n", completed))
@@ -45,7 +45,7 @@ func GenerateCertificate(states []steps.StepState, sessionID string) string {
 	b.WriteString("\n──────────────────────────────────────────────────────────────────\n")
 	passed, total := steps.ProgressCounts(states)
 	b.WriteString(fmt.Sprintf("Progress: %d / %d steps completed\n\n", passed, total))
-	b.WriteString("Elastic Bangalore Community Workshop\n")
+	b.WriteString("ELASTIC Community Workshop\n")
 	b.WriteString("https://www.elastic.co\n")
 
 	return b.String()

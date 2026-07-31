@@ -47,7 +47,7 @@ func renderCompletion(width, height int, states []steps.StepState, certPath, msg
 	// Certificate preview box
 	certTitle := headerStyle.Render("Certificate of Completion")
 	certPreview := instructionStyle.Render(strings.TrimSpace(`
-ELASTIC BANGALORE — Workshop Certificate
+ELASTIC — Workshop Certificate
 Agentic Workflows & Searchable Applications
 with Elasticsearch, Jina, and A2A`))
 	b.WriteString(panelStyle.Width(min(width-8, 72)).Render(certTitle + "\n\n" + certPreview))

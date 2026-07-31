@@ -67,7 +67,7 @@
 </script>
 
 <div class="header">
-	<div class="logo">ELASTIC <span>BANGALORE</span></div>
+	<div class="logo">ELASTIC</div>
 	<div class="header-actions">
 		<HeaderGithubLink />
 		<a href="/admin" class="btn btn-secondary" style="text-decoration:none;font-size:0.875rem">Admin</a>

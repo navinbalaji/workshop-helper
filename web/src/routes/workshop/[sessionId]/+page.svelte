@@ -390,7 +390,7 @@
 <svelte:window onkeydown={onKeydown} />
 
 <div class="header">
-	<div class="logo">ELASTIC <span>BANGALORE</span></div>
+	<div class="logo">ELASTIC </div>
 	<div class="header-actions">
 		{#if data}
 			<span style="color:var(--muted)">Hi, <strong style="color:var(--text)">{data.participantName}</strong></span>

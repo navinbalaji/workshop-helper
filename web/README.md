@@ -1,6 +1,6 @@
-# Elastic Bangalore — Web Workshop
+# ELASTIC — Web Workshop
 
-SvelteKit web UI for the Elastic Bangalore workshop. Participants enter their name, configure Elastic Cloud credentials (stored in browser local storage), and progress through the 30-step lab — with progress stored in Elasticsearch and an admin dashboard for facilitators.
+SvelteKit web UI for the ELASTIC workshop. Participants enter their name, configure Elastic Cloud credentials (stored in browser local storage), and progress through the 30-step lab — with progress stored in Elasticsearch and an admin dashboard for facilitators.
 
 ## Stack
 

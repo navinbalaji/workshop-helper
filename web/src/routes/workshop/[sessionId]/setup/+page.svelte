@@ -61,7 +61,7 @@
 </script>
 
 <div class="header">
-	<div class="logo">ELASTIC <span>BANGALORE</span></div>
+	<div class="logo">ELASTIC</div>
 	<div class="header-actions">
 		<HeaderGithubLink />
 		{#if isEditing}

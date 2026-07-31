@@ -1,10 +1,10 @@
-# Agent Context — Elastic Bangalore Workshop CLI
+# Agent Context — ELASTIC Workshop CLI
 
 Reference for AI agents and contributors working in this repository.
 
 ## Project summary
 
-**`elastic-bangalore`** is an interactive terminal (TUI) workshop companion for the Elastic Bangalore event: *Agentic Workflows & Searchable Applications with Elasticsearch, Jina, and A2A*.
+**`elastic-bangalore`** is an interactive terminal (TUI) workshop companion for the ELASTIC event: *Agentic Workflows & Searchable Applications with Elasticsearch, Jina, and A2A*.
 
 Participants run a single Go binary that:
 
@@ -82,7 +82,7 @@ elastic-bangalore/
     ├── tui/
     │   ├── app.go                    # Main Bubble Tea model: screens, keys, verify, copy, session
     │   ├── splash.go                 # Splash + credential setup wizard UI
-    │   ├── banner.go                 # Persistent Elastic Bangalore top banner
+    │   ├── banner.go                 # Persistent ELASTIC top banner
     │   ├── completion.go             # Certificate / completion screen
     │   └── styles.go                 # Lip Gloss styles, status icons
     │
@@ -158,7 +158,7 @@ main.go
 - **r** reconfigure from workshop screen
 
 ### Workshop UI
-- Persistent Elastic Bangalore banner (`internal/tui/banner.go`)
+- Persistent ELASTIC banner (`internal/tui/banner.go`)
 - 30-step checklist grouped by module with status icons (○ ◌ ✓ ✗)
 - Right panel: rendered `lab-guide.md` section per step (glamour markdown)
 - Render cache + neighbour pre-warm for fast ↑/↓ navigation
@@ -303,4 +303,4 @@ make run            # build + run
 
 ## License
 
-Workshop materials for Elastic Bangalore community events.
+Workshop materials for ELASTIC community events.
