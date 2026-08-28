@@ -1,4 +1,4 @@
-# ELASTIC Workshop CLI
+# Workshop CLI
 
 Interactive terminal lab companion for the **ELASTIC** workshop: *Agentic Workflows & Searchable Applications with Elasticsearch, Jina, and A2A*.
 
